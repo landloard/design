@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <className name="Mt1011">org.landlord.demo02.Mt1011ReceiptHandleStrategy</className>
+    <className name="Mt2101">org.landlord.demo02.Mt2101ReceiptHandleStrategy</className>
+</config>

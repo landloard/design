@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.landlord</groupId>
+    <artifactId>design</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>singleton-pattern-01</module>
+        <module>factory-pattern-02</module>
+        <module>builder-pattern-03</module>
+        <module>prototype-pattern-04</module>
+        <module>proxy-pattern-05</module>
+        <module>decorator-pattern-07</module>
+        <module>bridge-pattern-06</module>
+        <module>adapter-pattern-08</module>
+        <module>facade-pattern-09</module>
+        <module>composite-pattern-10</module>
+        <module>flyweight-pattern-11</module>
+        <module>observer-pattern-12</module>
+        <module>template-pattern-13</module>
+        <module>strategy-pattern-14</module>
+        <module>chain-of-responsibility-pattern-15</module>
+        <module>state-pattern-16</module>
+        <module>iterator-pattern-17</module>
+        <module>visitor-pattern-18</module>
+        <module>memento-pattern-19</module>
+        <module>command-pattern-20</module>
+        <module>interpeter-pattern-21</module>
+        <module>mediator-pattern-22</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.83</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+
+</project>
